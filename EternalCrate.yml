@@ -1,0 +1,308 @@
+Crate:
+  # Type of crate -> CSGO/QuadCrate/QuickCrate/Roulette/CrateOnTheGo/FireCracker/Wonder/Wheel/War
+  # See CosmicCrateExample.yml to see how the Cosmic CrateType works.
+  # QuickCrate simply allows you to speed open crates.
+  CrateType: QuickCrate
+  CrateName: '&5&lEternal Crate'
+  Preview-Name: '&5&lEternal Crate Preview'
+  StartingKeys: 0
+  Max-Mass-Open: 10
+  InGUI: false
+  Slot: 15
+  OpeningBroadCast: true
+  BroadCast: '%prefix%&6&l%player%&r &7is opening a &5&lEternal Chest&7.'
+  Item: 'CHEST'
+  Glowing: false
+  Name: '&5&lEternal Chest'
+  Lore:
+    - '&7This crate contains Eternal items.'
+    - '&7You have &6%Keys% keys &7to open this crate with.'
+    - '&7&l(&e&l!&7&l) Right click to view rewards.'
+  Preview:
+    Toggle: true
+    ChestLines: 3
+    Glass:
+      Toggle: true
+      # The name of the border item.
+      Name: ' '
+      Item: 'BLACK_STAINED_GLASS_PANE'
+  PhysicalKey:
+    Name: '&5&lEternal Crate Key'
+    Lore:
+      - '&7A Godly Key'
+      - '&7Forged From an alloy void of time and space.'
+    Item: 'TRIPWIRE_HOOK'
+    Glowing: True
+  Hologram:
+    Toggle: true
+    Height: 1.5
+    Message:
+      - '&5&lEternal Chest'
+  Prizes:
+    1:
+      DisplayName: '&5&l&oEternal Helmet'
+      DisplayItem: 'DIAMOND_HELMET'
+      DisplayAmount: 1
+      Lore:
+        - '&6&lChance: &c&l5%'
+      DisplayEnchantments:
+        - 'PROTECTION_ENVIRONMENTAL:15'
+        - 'DURABILITY:15'
+        - 'MENDING:1'
+      MaxRange: 100
+      Chance: 5
+      Items:
+        - 'Item:DIAMOND_HELMET, Amount:1, Name:&5&l&oEternal Helmet, PROTECTION_ENVIRONMENTAL:15, DURABILITY:15, MENDING:1'
+      Messages:
+        - '&7You just won a &r%reward%.'
+    2:
+      DisplayName: '&5&l&oEternal Chestplate'
+      DisplayItem: 'DIAMOND_CHESTPLATE'
+      DisplayAmount: 1
+      Lore:
+        - '&6&lChance: &c&l5%'
+      DisplayEnchantments:
+        - 'PROTECTION_ENVIRONMENTAL:15'
+        - 'DURABILITY:15'
+        - 'MENDING:1'
+      MaxRange: 100
+      Chance: 5
+      Items:
+        - 'Item:DIAMOND_CHESTPLATE, Amount:1, Name:&5&l&oEternal Chestplate, PROTECTION_ENVIRONMENTAL:15, DURABILITY:15, MENDING:1'
+      Messages:
+        - '&7You just won a &r%reward%.'
+    3:
+      DisplayName: '&5&l&oEternal Leggings'
+      DisplayItem: 'DIAMOND_LEGGINGS'
+      DisplayAmount: 1
+      Lore:
+        - '&6&lChance: &c&l5%'
+      DisplayEnchantments:
+        - 'PROTECTION_ENVIRONMENTAL:15'
+        - 'DURABILITY:15'
+        - 'MENDING:1'
+      MaxRange: 100
+      Chance: 5
+      Items:
+        - 'Item:DIAMOND_LEGGINGS, Amount:1, Name:&5&l&oEternal Leggings, PROTECTION_ENVIRONMENTAL:15, DURABILITY:15, MENDING:1'
+      Messages:
+        - '&7You just won a &r%reward%.'
+    4:
+      DisplayName: '&5&l&oEternal Boots'
+      DisplayItem: 'DIAMOND_BOOTS'
+      DisplayAmount: 1
+      Lore:
+        - '&6&lChance: &c&l5%'
+      DisplayEnchantments:
+        - 'PROTECTION_ENVIRONMENTAL:15'
+        - 'DURABILITY:15'
+        - 'MENDING:1'
+      MaxRange: 100
+      Chance: 5
+      Items:
+        - 'Item:DIAMOND_BOOTS, Amount:1, Name:&5&l&oEternal Boots, PROTECTION_ENVIRONMENTAL:15, DURABILITY:15, MENDING:1'
+      Messages:
+        - '&7You just won a &r%reward%.'
+    5:
+      DisplayName: '&5&l&oEternal Axe'
+      DisplayItem: 'DIAMOND_AXE'
+      DisplayAmount: 1
+      Lore:
+        - '&6&lChance: &c&l2.5%'
+      DisplayEnchantments:
+        - 'DIG_SPEED:15'
+        - 'DURABILITY:15'
+        - 'MENDING:1'
+        - 'DAMAGE_ALL:15'
+      MaxRange: 1000
+      Chance: 25
+      Items:
+        - 'Item:DIAMOND_AXE, Amount:1, Name:&5&l&oEternal Axe, DIG_SPEED:15, DURABILITY:15, MENDING:1, DAMAGE_ALL:15'
+      Messages:
+        - '&7You just won a &r%reward%.'
+    6:
+      DisplayName: '&5&l&oEternal Kitana'
+      DisplayItem: 'DIAMOND_SWORD'
+      DisplayAmount: 1
+      Lore:
+        - '&6&lChance: &c&l2.5%'
+      DisplayEnchantments:
+        - 'DIG_SPEED:15'
+        - 'DURABILITY:15'
+        - 'MENDING:1'
+        - 'DAMAGE_ALL:15'
+      MaxRange: 1000
+      Chance: 25
+      Items:
+        - 'Item:DIAMOND_SWORD, Amount:1, Name:&5&l&oEternal Kitana, DIG_SPEED:15, DURABILITY:15, MENDING:1, DAMAGE_ALL:15'
+      Messages:
+        - '&7You just won a &r%reward%.'
+    7:
+      DisplayName: '&5&l&oEternal Shovel'
+      DisplayItem: 'DIAMOND_SHOVEL'
+      DisplayAmount: 1
+      Lore:
+        - '&6&lChance: &c&l2.5%'
+      DisplayEnchantments:
+        - 'DIG_SPEED:15'
+        - 'DURABILITY:15'
+        - 'MENDING:1'
+      MaxRange: 1000
+      Chance: 25
+      Items:
+        - 'Item:DIAMOND_SHOVEL, Amount:1, Name:&5&l&oEternal Shovel, DIG_SPEED:15, DURABILITY:15, MENDING:1'
+      Messages:
+        - '&7You just won a &r%reward%.'       
+    8:
+      DisplayName: '&5&l&oEternal Pickaxe'
+      DisplayItem: 'DIAMOND_PICKAXE'
+      DisplayAmount: 1
+      Lore:
+        - '&6&lChance: &c&l2.5%'
+      DisplayEnchantments:
+        - 'DIG_SPEED:15'
+        - 'DURABILITY:15'
+        - 'MENDING:1'
+        - 'LOOT_BONUS_BLOCKS:11'
+      MaxRange: 1000
+      Chance: 25
+      Items:
+        - 'Item:DIAMOND_PICKAXE, Amount:1, Name:&5&l&oEternal Pickaxe, DIG_SPEED:15, DURABILITY:15, MENDING:1, LOOT_BONUS_BLOCKS:11'
+      Messages:
+        - '&7You just won a &r%reward%.'       
+    9:
+      DisplayName: '&4[&c&lADMIN&4]&c&l Helmet'
+      DisplayItem: 'DIAMOND_HELMET'
+      DisplayAmount: 1
+      Lore:
+        - '&6&lChance: &c&l7.5%'
+      DisplayEnchantments:
+        - 'PROTECTION_ENVIRONMENTAL:11'
+      MaxRange: 1000
+      Chance: 75
+      Items:
+        - 'Item:DIAMOND_HELMET, Amount:1, Name:&4[&c&lADMIN&4]&c&l Helmet, PROTECTION_ENVIRONMENTAL:11'
+      Messages:
+        - '&7You just won a &r%reward%.'
+    10:
+      DisplayName: '&4[&c&lADMIN&4]&c&l Chestplate'
+      DisplayItem: 'DIAMOND_CHESTPLATE'
+      DisplayAmount: 1
+      Lore:
+        - '&6&lChance: &c&l7.5%'
+      DisplayEnchantments:
+        - 'PROTECTION_ENVIRONMENTAL:11'
+      MaxRange: 1000
+      Chance: 75
+      Items:
+        - 'Item:DIAMOND_CHESTPLATE, Amount:1, Name:&4[&c&lADMIN&4]&c&l Chestplate, PROTECTION_ENVIRONMENTAL:11'
+      Messages:
+        - '&7You just won a &r%reward%.'        
+    11:
+      DisplayName: '&4[&c&lADMIN&4]&c&l Pants'
+      DisplayItem: 'DIAMOND_LEGGINGS'
+      DisplayAmount: 1
+      Lore:
+        - '&6&lChance: &c&l7.5%'
+      DisplayEnchantments:
+        - 'PROTECTION_ENVIRONMENTAL:11'
+      MaxRange: 1000
+      Chance: 75
+      Items:
+        - 'Item:DIAMOND_LEGGINGS, Amount:1, Name:&4[&c&lADMIN&4]&c&l Pants, PROTECTION_ENVIRONMENTAL:11'
+      Messages:
+        - '&7You just won a &r%reward%.'
+    12:
+      DisplayName: '&4[&c&lADMIN&4]&c&l Boots'
+      DisplayItem: 'DIAMOND_BOOTS'
+      DisplayAmount: 1
+      Lore:
+        - '&6&lChance: &c&l7.5%'
+      DisplayEnchantments:
+        - 'PROTECTION_ENVIRONMENTAL:11'
+      MaxRange: 1000
+      Chance: 75
+      Items:
+        - 'Item:DIAMOND_BOOTS, Amount:1, Name:&4[&c&lADMIN&4]&c&l Boots, PROTECTION_ENVIRONMENTAL:11'
+      Messages:
+        - '&7You just won a &r%reward%.'        
+    13:
+      DisplayName: '&4[&c&lADMIN&4]&c&l Axe'
+      DisplayItem: 'DIAMOND_AXE'
+      DisplayAmount: 1
+      Lore:
+        - '&6&lChance: &c&l5%'
+      DisplayEnchantments:
+        - 'DIG_SPEED:16'
+        - 'DAMAGE_ALL:11'
+      MaxRange: 100
+      Chance: 5
+      Items:
+        - 'Item:DIAMOND_AXE, Amount:1, Name:&4[&c&lADMIN&4]&c&l Axe, DAMAGE_ALL:11, DIG_SPEED:16'
+      Messages:
+        - '&7You just won a &r%reward%.'
+    14:
+      DisplayName: '&4[&c&lADMIN&4]&c&l Sword'
+      DisplayItem: 'DIAMOND_SWORD'
+      DisplayAmount: 1
+      Lore:
+        - '&6&lChance: &c&l5%'
+      DisplayEnchantments:
+        - 'DAMAGE_ALL:11'
+      MaxRange: 100
+      Chance: 5
+      Items:
+        - 'Item:DIAMOND_SWORD, Amount:1, Name:&4[&c&lADMIN&4]&c&l Sword, DAMAGE_ALL:11'
+      Messages:
+        - '&7You just won a &r%reward%.'  
+    15:
+      DisplayName: '&4[&c&lADMIN&4]&c&l Shovel'
+      DisplayItem: 'DIAMOND_SHOVEL'
+      DisplayAmount: 1
+      Lore:
+        - '&6&lChance: &c&l5%'
+      DisplayEnchantments:
+        - 'DIG_SPEED:16'
+      MaxRange: 100
+      Chance: 5
+      Items:
+        - 'Item:DIAMOND_SHOVEL, Amount:1, Name:&4[&c&lADMIN&4]&c&l Shovel, DIG_SPEED:16'
+      Messages:
+        - '&7You just won a &r%reward%.'    
+    16:
+      DisplayName: '&4[&c&lADMIN&4]&c&l Pick'
+      DisplayItem: 'DIAMOND_PICKAXE'
+      DisplayAmount: 1
+      Lore:
+        - '&6&lChance: &c&l5%'
+      DisplayEnchantments:
+        - 'DIG_SPEED:16'
+        - 'SILK_TOUCH:1'
+      MaxRange: 100
+      Chance: 5
+      Items:
+        - 'Item:DIAMOND_PICKAXE, Amount:1, Name:&4[&c&lADMIN&4]&c&l Axe, SILK_TOUCH:1, DIG_SPEED:16'
+      Messages:
+        - '&7You just won a &r%reward%.'   
+    17:
+      DisplayName: '&9&lDiver &6&lAnd &f&lSpace &6&lArmor'
+      DisplayItem: 'GLASS'
+      DisplayAmount: 1
+      Lore:
+        - '&6&lChance: &c&l4%'
+      MaxRange: 100
+      Chance: 4
+      Commands:
+        - 'kit space %player%'          
+    18:
+      DisplayName: '&6&l Rank Key'
+      DisplayItem: 'TRIPWIRE_HOOK'
+      DisplayAmount: 1
+      Lore:
+        - '&7A special Key'
+        - '&7For a special Crate.'
+        - '&6&lChance: &c&l1%'
+      MaxRange: 100
+      Chance: 1
+      Commands:
+        - 'cc give virtual Rank 1 %player%'

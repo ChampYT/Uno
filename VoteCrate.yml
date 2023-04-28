@@ -1,0 +1,249 @@
+Crate:
+  # Type of crate -> CSGO/QuadCrate/QuickCrate/Roulette/CrateOnTheGo/FireCracker/Wonder/Wheel/War
+  # See CosmicCrateExample.yml to see how the Cosmic CrateType works.
+  # QuickCrate simply allows you to speed open crates.
+  CrateType: QuickCrate
+  CrateName: '&b&lVote Crate'
+  Preview-Name: '&b&lVote Crate Preview'
+  StartingKeys: 0
+  Max-Mass-Open: 10
+  InGUI: false
+  Slot: 15
+  OpeningBroadCast: false
+  BroadCast: '%prefix%&6&l%player%&r &7is opening a &b&lVote Crate&7.'
+  Item: 'CHEST'
+  Glowing: false
+  Name: '&b&lVote Crate'
+  Lore:
+    - '&7This crate contains Voting items.'
+    - '&7You have &6%Keys% keys &7to open this crate with.'
+    - '&7&l(&e&l!&7&l) Right click to view rewards.'
+  Preview:
+    Toggle: true
+    ChestLines: 3
+    Glass:
+      Toggle: true
+      # The name of the border item.
+      Name: ' '
+      Item: 'BLACK_STAINED_GLASS_PANE'
+  PhysicalKey:
+    Name: '&b&lVote Crate &b&lKey'
+    Lore:
+      - '&7A special Key'
+      - '&7For a non-special Crate.'
+    Item: 'TRIPWIRE_HOOK'
+    Glowing: True
+  Hologram:
+    Toggle: true
+    Height: 1.5
+    Message:
+      - '&b&lVote Crate'
+  Prizes:
+    1:
+      DisplayName: '&b&l&oVoting Helmet'
+      DisplayItem: 'DIAMOND_HELMET'
+      DisplayAmount: 1
+      Lore:
+        - '&6&lChance: &c&l9%'
+      DisplayEnchantments:
+        - 'PROTECTION_ENVIRONMENTAL:4'
+        - 'DURABILITY:3'
+      MaxRange: 100
+      Chance: 9
+      Items:
+        - 'Item:DIAMOND_HELMET, Amount:1, Name:&b&l&oVoting Helmet, PROTECTION_ENVIRONMENTAL:4, DURABILITY:3'
+      Messages:
+        - '&7You just won a &r%reward%.'
+    2:
+      DisplayName: '&b&l&oVoting Chestplate'
+      DisplayItem: 'DIAMOND_CHESTPLATE'
+      DisplayAmount: 1
+      Lore:
+        - '&6&lChance: &c&l9%'
+      DisplayEnchantments:
+        - 'PROTECTION_ENVIRONMENTAL:4'
+        - 'DURABILITY:3'
+      MaxRange: 100
+      Chance: 9
+      Items:
+        - 'Item:DIAMOND_Chestplate, Amount:1, Name:&b&l&oVoting Chestplate, PROTECTION_ENVIRONMENTAL:4, DURABILITY:3'
+      Messages:
+        - '&7You just won a &r%reward%.'
+    3:
+      DisplayName: '&b&l&oVoting Pants'
+      DisplayItem: 'DIAMOND_LEGGINGS'
+      DisplayAmount: 1
+      Lore:
+        - '&6&lChance: &c&l9%'
+      DisplayEnchantments:
+        - 'PROTECTION_ENVIRONMENTAL:4'
+        - 'DURABILITY:3'
+      MaxRange: 100
+      Chance: 9
+      Items:
+        - 'Item:DIAMOND_LEGGINGS, Amount:1, Name:&b&l&oVoting Pants, PROTECTION_ENVIRONMENTAL:4, DURABILITY:3'
+      Messages:
+        - '&7You just won a &r%reward%.'
+    4:
+      DisplayName: '&b&l&oVoting Boots'
+      DisplayItem: 'DIAMOND_BOOTS'
+      DisplayAmount: 1
+      Lore:
+        - '&6&lChance: &c&l9%'
+      DisplayEnchantments:
+        - 'PROTECTION_ENVIRONMENTAL:4'
+        - 'DURABILITY:3'
+      MaxRange: 100
+      Chance: 9
+      Items:
+        - 'Item:DIAMOND_BOOTS, Amount:1, Name:&b&l&oVoting Boots, PROTECTION_ENVIRONMENTAL:4, DURABILITY:3'
+      Messages:
+        - '&7You just won a &r%reward%.'
+    5:
+      DisplayName: '&b&l&oVoting Sword'
+      DisplayItem: 'DIAMOND_SWORD'
+      DisplayAmount: 1
+      Lore:
+        - '&6&lChance: &c&l4%'
+      DisplayEnchantments:
+        - 'DAMAGE_ALL:5'
+        - 'FIRE_ASPECT:2'
+        - 'DURABILITY:3'
+      MaxRange: 100
+      Chance: 4
+      Items:
+        - 'Item:DIAMOND_SWORD, Amount:1, Name:&b&l&oVoting Sword, DAMAGE_ALL:5, FIRE_ASPECT:2, DURABILITY:3'
+      Messages:
+        - '&7You just won &r%reward%.'
+    6:
+      DisplayName: '&b&l&oVoting Axe'
+      DisplayItem: 'DIAMOND_AXE'
+      DisplayAmount: 1
+      Lore:
+        - '&6&lChance: &c&l4%'
+      DisplayEnchantments:
+        - 'DAMAGE_ALL:5'
+        - 'FIRE_ASPECT:2'
+        - 'DURABILITY:3'
+        - 'DIG_SPEED:5'
+      MaxRange: 100
+      Chance: 4
+      Items:
+        - 'Item:DIAMOND_AXE, Amount:1, Name:&b&l&oVoting Axe, DAMAGE_ALL:5, FIRE_ASPECT:2, DURABILITY:3, DIG_SPEED:5'
+      Messages:
+        - '&7You just won &r%reward%.'
+    7:
+      DisplayName: '&b&l&oVoting Shovel'
+      DisplayItem: 'DIAMOND_SHOVEL'
+      DisplayAmount: 1
+      Lore:
+        - '&6&lChance: &c&l4%'
+      DisplayEnchantments:
+        - 'DURABILITY:3'
+        - 'DIG_SPEED:5'
+      MaxRange: 100
+      Chance: 4
+      Items:
+        - 'Item:DIAMOND_SPADE, Amount:1, Name:&b&l&oVoting Shovel, DURABILITY:3, DIG_SPEED:5'
+      Messages:
+        - '&7You just won &r%reward%.'
+    8:
+      DisplayName: '&b&l&oVoting Hoe'
+      DisplayItem: 'DIAMOND_HOE'
+      DisplayAmount: 1
+      Lore:
+        - '&6&lChance: &c&l4%'
+      DisplayEnchantments:
+        - 'DURABILITY:3'
+        - 'DIG_SPEED:5'
+      MaxRange: 100
+      Chance: 4
+      Items:
+        - 'Item:DIAMOND_HOE, Amount:1, Name:&b&l&oVoting Hoe, DURABILITY:3, DIG_SPEED:5'
+      Messages:
+        - '&7You just won &r%reward%.'
+    9:
+      DisplayName: '&b&l&oVoting Pickaxe I'
+      DisplayItem: 'DIAMOND_PICKAXE'
+      DisplayAmount: 1
+      Lore:
+        - '&6&lChance: &c&l4%'
+      DisplayEnchantments:
+        - 'DURABILITY:3'
+        - 'DIG_SPEED:5'
+        - 'LOOT_BONUS_BLOCKS:3'
+      MaxRange: 100
+      Chance: 4
+      Items:
+        - 'Item:DIAMOND_PICKAXE, Amount:1, Name:&b&l&oVoting Pickaxe I, DURABILITY:3, DIG_SPEED:5, LOOT_BONUS_BLOCKS:3'
+      Messages:
+        - '&7You just won &r%reward%.'
+    10:
+      DisplayName: '&b&l&oVoting Pickaxe II'
+      DisplayItem: 'DIAMOND_PICKAXE'
+      DisplayAmount: 1
+      Lore:
+        - '&6&lChance: &c&l4%'
+      DisplayEnchantments:
+        - 'DURABILITY:3'
+        - 'DIG_SPEED:5'
+        - 'SILK_TOUCH:1'
+      MaxRange: 100
+      Chance: 4
+      Items:
+        - 'Item:DIAMOND_PICKAXE, Amount:1, Name:&b&l&oVoting Pickaxe I, DURABILITY:3, DIG_SPEED:5, SILK_TOUCH:1'
+      Messages:
+        - '&7You just won &r%reward%.'
+    11:
+      DisplayName: '&d&lUno Crate Key'
+      DisplayItem: 'TRIPWIRE_HOOK'
+      DisplayAmount: 1
+      Lore:
+        - '&6&lChance: &c&l2%'
+      MaxRange: 100
+      Chance: 2
+      Firework: true
+      Commands:
+        - 'cc give Virtual UnoCrate 1 %player%'
+      Messages:
+        - '&7You just won &r%reward%.'
+    12:
+      DisplayName: '&e&l$1,000'
+      DisplayItem: 'SUNFLOWER'
+      DisplayAmount: 1
+      Lore:
+        - '&7Make it rain a lot of Money.'
+        - '&6&lChance: &c&l22%'
+      MaxRange: 100
+      Chance: 22
+      Firework: true
+      Commands:
+        - 'eco give %player% 1000'
+      Messages:
+        - '&7You just won &r%reward%.'
+    13:
+      DisplayName: '&e&l1,500 Claim Blocks'
+      DisplayItem: 'GOLDEN_SHOVEL'
+      DisplayAmount: 1
+      Lore:
+        - '&6&lChance: &c&l15%'
+      MaxRange: 100
+      Chance: 15
+      Firework: true
+      Commands:
+        - 'acb %player% 1500'
+      Messages:
+        - '&7You just won &r%reward%.'
+    14:
+      DisplayName: '&5&lEternal Crate Key'
+      DisplayItem: 'TRIPWIRE_HOOK'
+      DisplayAmount: 1
+      Lore:
+        - '&6&lChance: &c&l1%'
+      MaxRange: 100
+      Chance: 2
+      Firework: true
+      Commands:
+        - 'cc give Virtual EternalCrate 1 %player%'
+      Messages:
+        - '&7You just won &r%reward%.'
